@@ -89,7 +89,7 @@ We will be building Yosys from the source using gcc, the instructions for which 
 _________________________________________________________________________________________________________  
 # Day 1: Introduction to Verilog RTL design and Synthesis
 
-## 1.1 Lab: Functional Simulation of RTL design using iverilog and gktwave
+## 1.1 Lab: Functional Simulation of RTL design using nclaunch and simvision
 In this lab, we clone the gihthub repo - [sky130RTLDesignAndSynthesisWorkshop](https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop) - and use one of the example RTL design sources together with its corresponding testbench to get familiarised with the functional simulation of an RTL design using iverilog and gtkwave.   
 <br />
 1. Clone the github repo with the RTL design examples and sky130*.lib files
