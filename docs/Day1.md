@@ -3,7 +3,7 @@
 _________________________________________________________________________________________________________  
 # Day 1: Introduction to Verilog RTL design and Synthesis
 
-## 1.1 Lab: Functional Simulation of RTL design using nclaunch and simvision
+## 1.1 Lab: Functional Simulation of RTL design using nclaunch(cadence) and simvision(Cadence)
 In this lab, we clone the gihthub repo - [sky130RTLDesignAndSynthesisWorkshop](https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop) - and use one of the example RTL design sources together with its corresponding testbench to get familiarised with the functional simulation of an RTL design using iverilog and gtkwave.   
 <br />
 1. Clone the github repo with the RTL design examples and sky130*.lib files
@@ -13,30 +13,20 @@ git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 
 2. We will be performing functional simulation of the module good_mux (defined in good_mux.v), as an example.
 ```shell
-# Step1: Use iverilog to read and interpret the source and testbench file(s) and generate 
-# a compiled output (with default output format=vvp)
-# Syntax: iverilog -o <outfile> <file1.v> <file2.v> ... <tb_top.v>
-
-iverilog -o good_mux good_mux.v tb_good_mux.v
+# Step1: Use nclaunch to read and interpret the source and testbench file(s) 
+# step2: to invoke nclaunch
+# Command: nclaunch -new
 
 
-# Step 2: iverilog has now generated a compiled output named "good_mux", which can now be run using
-# the simulation runtime engine, vvp
-# Syntax: vvp <outfile>
-
-vvp good_mux
 
 
-# Step 3: Running the verilog simulation in step 2 will generate & dump the stimulus and output 
-# signal values for the defined simulation duration in the testbench to a vcd file.
-# This can now be viewed using gtkwave.
-# Syntax: gtkwave <dumpfile.vcd>
+# Step 3: nclaunch has now generated a compiled output named "good_mux", which can now be run using
+# the simvision simulation envirionment
 
-gtkwave tb_good_mux.vcd
 ```
 
 _Snapshot of the waves from the above simulation in gtkwave:_
-![D1_lab1_2input_mux_iverilog_gktwave](/docs/images/D1_lab1_2input_mux_iverilog_gktwave.png)
+![D1_lab1_2input_nclaunch_simvision](/docs/images/D1_lab1_2input_mux_iverilog_gktwave.png)
 <br />
 <br />
 
