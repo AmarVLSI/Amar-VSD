@@ -26,7 +26,7 @@ git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 ```
 
 _Snapshot of the waves from the above simulation in gtkwave:_
-![D1_lab1_2input_nclaunch_simvision](/docs/images/D1_lab1_2input_mux_iverilog_gktwave.png)
+![D1_lab1_2input_nclaunch_simvision](/docs/images/D1_lab1_2input_mux_simvision.png)
 <br />
 <br />
 
@@ -119,6 +119,12 @@ endmodule
   
 _Logic realized by the synthesis tool in the above example:_
 ![D1_lab3_2input_mux_synth_logical_diagram](/docs/images/D1_lab1_2input_mux_synth_logical_diagram.png)  
+
+_Screenshots of nclaunch:_
+![D1_nclaunch_screenshot](/docs/images/D1_lab_nclaunch_screenshot.png)  
+
+_Screenshot of simvision:_
+![D1_simvision_screenshot](/docs/images/D1_lab_simvision_screenshot.png)  
 
 _________________________________________________________________________________________________________  
 
