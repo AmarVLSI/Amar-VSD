@@ -25,13 +25,13 @@ git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 
 ```
 
-_Snapshot of the waves from the above simulation in gtkwave:_
+_Snapshot of the waves from the above simulation in Simvision(Cadence):_
 ![D1_lab1_2input_nclaunch_simvision](/docs/images/D1_lab1_2input_mux_simvision.png)
 <br />
 <br />
 
-## 1.2 Lab: Synthesis of RTL design using Yosys with sky130 library as target
-In this lab, we will perform gate-level synthesis of the example RTL design simulated in the previous session using Yosys and sky130 as the target library.
+## 1.2 Lab: Synthesis of RTL design using Genus(Cadence) with sky130 library as target
+In this lab, we will perform gate-level synthesis of the example RTL design simulated in the previous session using Genus and sky130 as the target library.
 <br />
 
 ```
